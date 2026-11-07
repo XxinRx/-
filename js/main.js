@@ -1,13 +1,7 @@
-import { initNav } from "./nav.js"
-;
-import { initCardsAnim } from "./cards.js"
-;
-import { initScoreAnim } from "./score.js"
-;
+import { initNav } from "./nav.js";
+import { initCardsAnim } from "./cards.js";
+import { initScoreAnim } from "./score.js";
 
-initNav
-();
-initCardsAnim
-();
-initScoreAnim
-();
+initNav();
+initCardsAnim();
+initScoreAnim();

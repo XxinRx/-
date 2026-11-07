@@ -50,3 +50,5 @@ desktop.ini
 *.zip
 *.rar
 *.7z
+node_modules
+dist

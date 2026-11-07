@@ -1,24 +1,14 @@
-import { animate, scrambleText } from "https://cdn.jsdelivr.net/npm/animejs@4/+esm"
-;
+import { animate, scrambleText } from "animejs";
 
-export function initScoreAnim(
-) {
-  var btn = document.querySelector(".primary-button"
-);
-  var scoreEl = document.querySelector("[data-score]"
-);
-  if (!btn || !scoreEl) return
-;
+export function initScoreAnim() {
+  var btn = document.querySelector(".primary-button");
+  var scoreEl = document.querySelector("[data-score]");
+  if (!btn || !scoreEl) return;
 
-  btn.
-addEventListener("click", function (
-) {
-    animate
-(scoreEl, {
-      innerHTML: scrambleText({ chars: "0-9"
- }),
-      duration: 1500
-,
+  btn.addEventListener("click", function () {
+    animate(scoreEl, {
+      innerHTML: scrambleText({ chars: "0-9"}),
+      duration: 1500,
     });
   });
 }
