@@ -1,0 +1,52 @@
+# Python 缓存、虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+env/
+ENV/
+
+# VSCode 配置
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志、临时文件
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints
+
+# 压缩包、大文件
+*.zip
+*.rar
+*.7z
